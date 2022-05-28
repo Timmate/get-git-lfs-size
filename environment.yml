@@ -1,0 +1,8 @@
+name: gitLfsGetSize
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip=21.2.4=py310h06a4308_0
+  - python=3.10.4=h12debd9_0
+  - tqdm=4.64.0=py310h06a4308_0
