@@ -10,7 +10,7 @@ Why just an estimate? Because the code in this repo relies on file sizes yielded
 ## Prerequisites
 The `git lfs` CLI utility has to be installed and initialized. 
 
-## Usage:
+## Usage
 1. Clone this repo and initialize a conda env from the *environment.yml* file.
 2. Clone an LFS-enabled repo (example: [OPPD dataset repo][oppd])
 3. Navigate to the cloned repo and run `git lfs ls-files -s > <output-file>` (note:)
@@ -18,7 +18,7 @@ The `git lfs` CLI utility has to be installed and initialized.
 
 As a sample file with file sizes, one might use the *oppd-dataset-file-sizes.txt* file from this repo.
 
-## TODO:  
+## TODO
 - include non-LFS files into count
 - count w/o cloning a repo (e.g., after cloning, the OPPD dataset repo takes about 15 GiB, even though only LFS pointer files have been cloned)
 
